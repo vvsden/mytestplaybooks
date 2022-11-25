@@ -1,0 +1,7 @@
+- hosts: all   tasks:
+ - name: Ansible file module create directory    
+
+    file:
+     path: ~/backups      
+
+      state: directory
